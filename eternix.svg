@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="32"
-  height="32"
-  viewBox="0 0 32 32">
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eternixBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+    <linearGradient id="eternixGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#ff9900"/>
+    </linearGradient>
+  </defs>
 
-  <image
-    href="eternix-32.png"
-    x="0"
-    y="0"
-    width="32"
-    height="32"
-    preserveAspectRatio="xMidYMid meet" />
+  <!-- Infinity loop -->
+  <path d="M8,16 C8,10 16,10 16,16 C16,22 24,22 24,16 C24,10 16,10 16,16 C16,22 8,22 8,16"
+        fill="none"
+        stroke="url(#eternixBlue)"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Arrow -->
+  <polygon points="18,8 28,4 24,14"
+           fill="url(#eternixGold)"/>
 </svg>
