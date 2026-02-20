@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="32"
-     height="32"
-     viewBox="0 0 32 32">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 32 32">
 
   <image
-    width="32"
-    height="32"
+    href="eternix-32.png"
     x="0"
     y="0"
-    xlink:href="eternix-32.png" />
-
+    width="32"
+    height="32"
+    preserveAspectRatio="xMidYMid meet" />
 </svg>
